@@ -14,7 +14,7 @@ function Redirection() {
       console.log("Received code:", code);
       
       // 백엔드에 GET 요청을 보내서 토큰을 가져옴
-      axios.get('http://localhost:8080/api/auth/oauth/kakao/callback', {
+      axios.get('http://ott.knu-soft.site/api/auth/oauth/kakao/callback', {
         params: { code }  // 쿼리 파라미터로 code 전달
       })
         .then((response) => {

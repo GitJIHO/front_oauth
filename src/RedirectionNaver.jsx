@@ -13,7 +13,7 @@ function RedirectionNaver() {
     if (code) {
       console.log("Received Naver code:", code, "and state:", state);
 
-      axios.get('http://localhost:8080/api/auth/oauth/naver/callback', {
+      axios.get('http://ott.knu-soft.site/api/auth/oauth/naver/callback', {
         params: { code, state }
       })
       .then((response) => {

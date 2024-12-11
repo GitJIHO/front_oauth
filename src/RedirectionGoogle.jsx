@@ -12,7 +12,7 @@ function RedirectionGoogle() {
     if (code) {
       console.log("Received Google code:", code);
 
-      axios.get('http://localhost:8080/api/auth/oauth/google/callback', {
+      axios.get('http://ott.knu-soft.site/api/auth/oauth/google/callback', {
         params: { code }
       })
       .then((response) => {

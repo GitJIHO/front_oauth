@@ -2,15 +2,15 @@ import React from 'react';
 
 function Home() {
   const handleKakaoLogin = () => {
-    window.location.href = 'http://localhost:8080/api/auth/oauth/kakao';
+    window.location.href = 'http://ott.knu-soft.site/api/auth/oauth/kakao';
   };
 
   const handleNaverLogin = () => {
-    window.location.href = 'http://localhost:8080/api/auth/oauth/naver';
+    window.location.href = 'http://ott.knu-soft.site/api/auth/oauth/naver';
   };
 
   const handleGoogleLogin = () => {
-    window.location.href = 'http://localhost:8080/api/auth/oauth/google';
+    window.location.href = 'http://ott.knu-soft.site/api/auth/oauth/google';
   };
 
   return (
